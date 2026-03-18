@@ -5,8 +5,7 @@
 		"uniqueTo": "Daming Empire",
 		"replaces": "Archer",
 		"promotions": [
-			"[30] HP when healing",
-			"Heals [50] damage if it kills a unit"
+			"Can move after attacking"
 		],
 		"attackSound": "phasers"
 	}
