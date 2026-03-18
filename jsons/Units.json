@@ -5,8 +5,8 @@
 		"uniqueTo": "Daming Empire",
 		"replaces": "Archer",
 		"promotions": [
-			"Unit will heal every turn, even if it performs an action",
-			"All adjacent units heal [30] HP when healing"
+			"[30] HP when healing",
+			"Heals [50] damage if it kills a unit"
 		],
 		"attackSound": "phasers"
 	}
