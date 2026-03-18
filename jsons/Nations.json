@@ -1,38 +1,113 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
-
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"name": "Daming Empire",
+		"leaderName": "大明皇帝",
+		"adjective": [
+			"Celestial"
+		],
+		"startBias": [
+			"Hill"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Emperor Ming",
+		"startIntroPart1": "吾皇万岁！大明皇帝陛下，您统御着这四海升平、万国来朝的煌煌天朝。自太祖高皇帝驱除胡虏，恢复中华，我大明已立国二百余载，文治武功，远迈汉唐。您的京师，乃天下之中，宫阙巍峨，市井繁华，运河如带，连通南北。您的疆域，东起辽海，西至嘉峪，北抵大漠，南达琼崖，亿兆黎庶，皆沐浴皇恩。",
+		"startIntroPart2": "陛下，四海虽安，然卧榻之侧，岂容他人鼾睡？塞北胡尘未靖，海外番邦不臣。是愿以王道怀柔远人，布德泽于四方？亦或是重启日月之旗，以雷霆之威，令八方臣服，再拓我大明万里版图？",
+		"declaringWar": "普天之下，莫非王土。尔等化外之民，抗拒王化，朕当替天伐罪！",
+		"attacked": "大胆狂徒！竟敢犯我天威！众将士，随朕诛灭此獠！",
+		"defeated": "天命…竟至于此乎？然朕之社稷，山河永在，民心不死！",
+		"introduction": "朕乃大明皇帝。汝所见，即天朝上国。",
+		"neutralHello": "远人至此，所为何事？",
+		"neutralLetsHearIt": [
+			"奏来。",
+			"但说无妨。",
+			"尔欲何为？"
+		],
+		"neutralNo": [
+			"荒谬，不准。",
+			"此非礼也，退下。",
+			"朕不允。"
+		],
+		"neutralYes": [
+			"准奏。",
+			"善，可依此办理。",
+			"允。"
+		],
+		"hateHello": "蛮夷之辈，安敢立于朕前？",
+		"hateLetsHearIt": [
+			"有话快说。",
+			"汝还有何言辞？",
+			"讲。"
+		],
+		"hateNo": [
+			"痴心妄想！",
+			"朕与汝，无话可谈。",
+			"绝无可能！"
+		],
+		"hateYes": [
+			"哼，暂且如此。",
+			"朕知道了。",
+			"可。"
+		],
+		"afterPeace": "既已知罪，朕便暂息兵戈。望汝好自为之。",
+		"tradeRequest": "天朝物产丰盈，可与尔互通有无。",
+		"outerColor": [
+			178,
+			34,
+			34
+		],
+		"innerColor": [
+			255,
+			215,
+			0
+		],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "天朝上国",
+		"uniques": [
+			"Great General provides double combat bonus",
+			"[+4] Movement <for [Great General] units>",
+			"[+2] Movement <for [Ranged] units>",
+			"[+1] Range <for [Ranged] units>",
+			"[+3] Sight <for [{Military} {Land}] units>",
+			"[1] additional attacks per turn",
+			"[+200]% XP gained from combat",
+			"[-50]% maintenance on road & railroads",
+			"Ranged attacks may be performed over obstacles",
+			"[+1 Gold, +1 Production,+1 Food] per [1] population [in all cities]",
+			"[30] HP when healing"
+		],
+		"cities": [
+			"京畿",
+			"青州",
+			"幽州",
+			"冀州",
+			"兖州",
+			"徐州",
+			"荆州",
+			"扬州",
+			"豫州",
+			"梁州",
+			"雍州",
+			"营州",
+			"交州",
+			"并州",
+			"陕州",
+			"闽州",
+			"剡州",
+			"贵州",
+			"耀州",
+			"相州"
+		],
+		"spyNames": [
+			"锦衣卫",
+			"东厂",
+			"都督",
+			"千户",
+			"百户",
+			"镇抚司",
+			"按察",
+			"提刑",
+			"内侍",
+			"监军"
+		]
 	}
 ]
