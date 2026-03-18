@@ -4,6 +4,11 @@
 		"unitType": "Ranged",
 		"uniqueTo": "Daming Empire",
 		"replaces": "Archer",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 9,
+		"range": 2,
+		"cost": 40,
 		"promotions": [
 			"Accuracy I"
 		],
