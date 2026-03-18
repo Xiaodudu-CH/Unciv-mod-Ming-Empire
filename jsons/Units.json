@@ -5,7 +5,7 @@
 		"uniqueTo": "Daming Empire",
 		"replaces": "Archer",
 		"promotions": [
-			"Can move after attacking"
+			"Accuracy I"
 		],
 		"attackSound": "phasers"
 	}
