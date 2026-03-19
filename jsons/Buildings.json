@@ -5,7 +5,6 @@
     "uniqueTo": "Daming Empire",
     "cost": 40,
     "food": 10,
-    "Faith": 2,
     "culture": 12,
     "science": 20,
     "maintenance": 0,
@@ -13,17 +12,15 @@
   },
   {
     "name": "Breeders",
-    "replaces": "Aqueduct",
     "uniqueTo": "Daming Empire",
-    "cost": 80,
+    "cost": 40,
     "happiness": 15,
-    "Production": 5,
+    "Production": 10,   
     "maintenance": 0,
     "isNationalWonder": false,
     "uniques": [
       "40% of food is carried over after a new citizen is born",
-      "[+1 Faith, +1 Production] from [Plains] tiles [in this city]"
-    ],
-    "requiredTech": "Engineering"
+      "[+2 Faith] from [Plains] tiles [in this city]"
+    ]
   }
 ]
