@@ -4,8 +4,8 @@
     "replaces": "Granary",
     "uniqueTo": "Daming Empire",
     "cost": 40,
+    "Production": 10, 
     "food": 10,
-    "Production": 10,
     "culture": 12,
     "science": 20,
     "maintenance": 0,
@@ -21,7 +21,7 @@
     "isNationalWonder": false,
     "uniques": [
       "40% of food is carried over after a new citizen is born",
-      "[+1 Gold, +2 Faith] from every [Farm]"
+      "[+1 Gold, +1 Faith,+1 Production] from [Farm] tiles [in this city]"
     ],
     "requiredTech": "Engineering"
   }
