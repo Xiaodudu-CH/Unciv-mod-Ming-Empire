@@ -5,6 +5,7 @@
     "uniqueTo": "Daming Empire",
     "cost": 40,
     "food": 10,
+    "production": 10, 
     "culture": 12,
     "science": 20,
     "maintenance": 0,
@@ -13,14 +14,14 @@
   {
     "name": "Breeders",
     "uniqueTo": "Daming Empire",
-    "cost": 40,
-    "happiness": 15,
-    "Production": 10,   
+    "cost": 80,
+    "happiness": 10,
+    "faith": 10,
+    "gold": 4,
     "maintenance": 0,
     "isNationalWonder": false,
     "uniques": [
-      "40% of food is carried over after a new citizen is born",
-      "[+2 Faith] from [Plains] tiles [in this city]"
+      "40% of food is carried over after a new citizen is born"
     ]
   }
 ]
