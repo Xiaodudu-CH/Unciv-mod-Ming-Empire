@@ -5,7 +5,7 @@
     "uniqueTo": "Daming Empire",
     "cost": 40,
     "food": 10,
-    "Production": 2,
+    "Production" : 2,
     "culture": 12,
     "science": 20,
     "maintenance": 0,
@@ -21,7 +21,7 @@
     "isNationalWonder": false,
     "uniques": [
       "40% of food is carried over after a new citizen is born",
-      "[+1 Faith,+1 Production] per [2] population [in this city]"
+      "[+1 Faith,+1 Production] from [Plains] tiles [in this city]"
     ],
     "requiredTech": "Engineering"
   }
