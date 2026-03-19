@@ -1,17 +1,23 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Daming Empire",
-		"replaces": "Archer",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 9,
-		"range": 2,
-		"cost": 40,
-		"promotions": [
-			"Accuracy I"
-		],
-		"attackSound": "phasers"
-	}
+  {
+    "name": "Phasers",
+    "unitType": "Ranged",
+    "uniqueTo": "Daming Empire",
+    "replaces": "Archer",
+    "movement": 2,
+    "strength": 6,
+    "rangedStrength": 8,
+    "range": 2,
+    "cost": 40,
+    "upgradesTo": "Composite Bowman",
+    "obsoleteTech": "Construction",
+    "promotions": [
+      "Accuracy I"
+    ],
+    "uniques": [
+      "All adjacent units heal [20] HP when healing",
+      "Unit will heal every turn, even if it performs an action"
+    ],
+    "attackSound": "phasers"
+  }
 ]
