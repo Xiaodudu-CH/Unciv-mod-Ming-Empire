@@ -5,7 +5,7 @@
     "uniqueTo": "Daming Empire",
     "cost": 40,
     "food": 10,
-    "Production" : 2,
+    "Faith": 2,
     "culture": 12,
     "science": 20,
     "maintenance": 0,
@@ -17,6 +17,7 @@
     "uniqueTo": "Daming Empire",
     "cost": 80,
     "happiness": 15,
+    "Production": 5,
     "maintenance": 0,
     "isNationalWonder": false,
     "uniques": [
