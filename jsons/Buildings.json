@@ -1,15 +1,28 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Granary",
-		"uniqueTo": "Daming Empire",
-		"cost": 40,
-		"food": 10,
-		"Production": 10,
-		"happiness": 15,
-		"culture": 12,
-		"science": 20,
-		"maintenance": 0,
-		"isNationalWonder": false
-	}
+  {
+    "name": "Holodeck",
+    "replaces": "Granary",
+    "uniqueTo": "Daming Empire",
+    "cost": 40,
+    "food": 10,
+    "Production": 10,
+    "culture": 12,
+    "science": 20,
+    "maintenance": 0,
+    "isNationalWonder": false
+  },
+  {
+    "name": "Breeders",
+    "replaces": "Aqueduct",
+    "uniqueTo": "Daming Empire",
+    "cost": 80,
+    "happiness": 15,
+    "maintenance": 0,
+    "isNationalWonder": false,
+    "uniques": [
+      "40% of food is carried over after a new citizen is born",
+      "[+1 Gold, +2 Faith] from every [Farm]"
+    ],
+    "requiredTech": "Engineering"
+  }
 ]
