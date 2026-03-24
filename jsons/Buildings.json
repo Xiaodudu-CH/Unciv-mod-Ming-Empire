@@ -21,7 +21,7 @@
     "maintenance": 0,
     "isNationalWonder": false,
     "uniques": [
-      "40% of food is carried over after a new citizen is born"
+      [+1 Happiness] from every specialist [in this city]
     ]
   }
 ]
