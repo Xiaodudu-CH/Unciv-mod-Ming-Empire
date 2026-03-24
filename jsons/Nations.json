@@ -72,7 +72,8 @@
 			"[-50]% maintenance on road & railroads",
 			"Ranged attacks may be performed over obstacles",
 			"[+1 Gold, +1 Production, +1 Food] per [1] population [in all cities]",
-			"[30] HP when healing"
+			"[30] HP when healing",
+			"Starts with [Railroad]"
 		],
 		"cities": [
 			"京畿",
