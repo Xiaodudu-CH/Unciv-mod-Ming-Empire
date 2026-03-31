@@ -1,7 +1,6 @@
 [
   {
     "name": "Holodeck",
-    "replaces": "Granary",
     "uniqueTo": "Daming Empire",
     "cost": 40,
     "food": 5,
@@ -9,7 +8,9 @@
     "culture": 12,
     "science": 20,
     "maintenance": 0,
-    "isNationalWonder": false
+    "isNationalWonder": false,
+    "uniques": [
+      "[+2 Food] from [Hill] tiles [in this city]"
   },
   {
     "name": "Breeders",
