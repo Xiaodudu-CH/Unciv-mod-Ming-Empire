@@ -4,16 +4,13 @@
     "unitType": "Ranged",
     "uniqueTo": "Daming Empire",
     "replaces": "Archer",
-    "movement": 2,
+    "movement": 3,
     "strength": 6,
-    "rangedStrength": 8,
+    "rangedStrength": 12,
     "range": 2,
-    "cost": 40,
+    "cost": 30,
     "upgradesTo": "Composite Bowman",
     "obsoleteTech": "Construction",
-    "promotions": [
-      "Accuracy I"
-    ],
     "uniques": [
       "All adjacent units heal [20] HP when healing",
       "Unit will heal every turn, even if it performs an action"
