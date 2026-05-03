@@ -25,5 +25,19 @@
     "uniques": [
       "[+1 Happiness] from every specialist [in this city]"
     ]
-  }
+  }，
+  {
+  "name": "凌烟阁",
+  "uniqueTo": "Daming Empire",
+  "cost": 20,
+  "faith": 2,
+  "maintenance": 0,
+  "isNationalWonder": true,
+  "specialistSlots": {"Engineer": 2},
+  "uniques": [
+    "Free [Settler] appears",
+    "Free [Great Prophet] appears"
+  ],
+  "requiredBuilding": "Holodeck"
+}
 ]
