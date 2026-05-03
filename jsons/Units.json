@@ -9,7 +9,6 @@
     "rangedStrength": 12,
     "range": 2,
     "cost": 30,
-    "upgradesTo": "Composite Bowman",
     "obsoleteTech": "Construction",
     "uniques": [
       "All adjacent units heal [20] HP when healing",
