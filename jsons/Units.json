@@ -33,7 +33,7 @@
 		"Unbuildable", 
 		"Religious Unit",
 		"Takes your religion over the one in their birth city",
-		"Comment [Stacking unit heals 15 HP upon turn end]",  // 1格内单位每回合回复15HP
+		"Stacking unit heals 15 HP upon turn end",  // 1格内单位每回合回复15HP
 		"Uncapturable",  // 不可被俘获
 	],
 	"movement": 8,  // 移动力8
@@ -56,7 +56,7 @@
 		"[+2] Sight",  // 视野+2
 		"May enter foreign tiles without open borders",  // 可进入外国领土
 		"[+10]% Strength bonus for [Mounted] units within [3] tiles",  // 额外骑兵加成
-	    "Comment [Stacking unit heals 15 HP upon turn end]"  // 为范围内单位提供移动力
+	    "Stacking unit heals 15 HP upon turn end"  // 为范围内单位提供移动力
 	],
 	"movement": 8
   }
