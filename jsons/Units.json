@@ -15,5 +15,49 @@
       "Unit will heal every turn, even if it performs an action"
     ],
     "attackSound": "phasers"
+  },
+  {
+	"name": "精神领袖",
+	"unitType": "Civilian",
+	"uniqueTo": "Daming Empire",
+	"replaces": "Great Prophet",
+	"uniques": [
+		"Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+		"Can Spread Religion <for [2] movement> <[50] times>",  // 50次传播，不消耗单位
+		"Removes other religions when spreading religion",
+		"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+		"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+		"May enter foreign tiles without open borders", 
+		"[+2] Sight",  // 视野+2（原大先知是-1，现在是+2）
+		"Great Person - [Faith]",
+		"Unbuildable", 
+		"Religious Unit",
+		"Takes your religion over the one in their birth city",
+		"All units within [1] tiles heal [+15] HP per turn",  // 1格内单位每回合回复15HP
+		"Uncapturable",  // 不可被俘获
+	],
+	"movement": 8,  // 移动力8
+	"religiousStrength": 1000
+  },
+  {
+	"name": "装甲政委",
+	"replaces": "Great General",
+	"uniqueTo": "Daming Empire",
+	"unitType": "Civilian",
+	"uniques": [
+		"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
+		"Great Person - [War]",
+		"All units within [1] tiles heal [+15] HP per turn",  // 1格内单位每回合回复15HP
+		"Unbuildable", 
+		"Uncapturable", 
+		"Can be earned through combat",
+		"[+2] Sight",  // 视野+2
+		"May enter foreign tiles without open borders",  // 可进入外国领土
+		"[+10]% Strength bonus for [Mounted] units within [3] tiles",  // 额外骑兵加成
+		"[+1] Movement for all [Land] units within [2] tiles"  // 为范围内单位提供移动力
+	],
+	"movement": 8
   }
 ]
