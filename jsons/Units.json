@@ -33,7 +33,7 @@
 		"Unbuildable", 
 		"Religious Unit",
 		"Takes your religion over the one in their birth city",
-		"All units within [1] tiles heal [+15] HP per turn",  // 1格内单位每回合回复15HP
+		"Comment [Stacking unit heals 15 HP upon turn end]",  // 1格内单位每回合回复15HP
 		"Uncapturable",  // 不可被俘获
 	],
 	"movement": 8,  // 移动力8
@@ -49,14 +49,14 @@
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
 		"Great Person - [War]",
-		"All units within [1] tiles heal [+15] HP per turn",  // 1格内单位每回合回复15HP
+		"All adjacent units heal [+10] HP when healing", // 1格内单位每回合回复15HP
 		"Unbuildable", 
 		"Uncapturable", 
 		"Can be earned through combat",
 		"[+2] Sight",  // 视野+2
 		"May enter foreign tiles without open borders",  // 可进入外国领土
 		"[+10]% Strength bonus for [Mounted] units within [3] tiles",  // 额外骑兵加成
-		"[+1] Movement for all [Land] units within [2] tiles"  // 为范围内单位提供移动力
+	    "Comment [Stacking unit heals 15 HP upon turn end]"  // 为范围内单位提供移动力
 	],
 	"movement": 8
   }
