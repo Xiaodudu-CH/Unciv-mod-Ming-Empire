@@ -17,15 +17,6 @@
     "attackSound": "phasers"
   },
   {
-	"name": "本草纲目",
-	"unitType": "Support",
-	"requiredTech": "Archery",
-	"movement": 2,
-	"range": 10,
-	"cost": 85,
-	"uniques": ["Comment [Stacking unit heals 15 HP upon turn end]"]
-  },
-  {
 	"name": "精神领袖",
 	"unitType": "Civilian",
 	"uniqueTo": "Daming Empire",
