@@ -35,6 +35,7 @@
   "isNationalWonder": true,
   "specialistSlots": {"Engineer": 2},
   "uniques": [
+    "[-30]% construction time for [All] improvements",
     "Free [Settler] appears",
     "Free [Great Prophet] appears"
   ],
