@@ -4,7 +4,7 @@
     "unitType": "Ranged",
     "uniqueTo": "Daming Empire",
     "replaces": "Archer",
-    "movement": 3,
+    "movement": 4,
     "strength": 6,
     "rangedStrength": 12,
     "range": 2,
@@ -15,6 +15,15 @@
       "Unit will heal every turn, even if it performs an action"
     ],
     "attackSound": "phasers"
+  },
+  {
+	"name": "本草纲目",
+	"unitType": "Support",
+	"requiredTech": "Archery",
+	"movement": 10,
+	"range": 1,
+	"cost": 85,
+	"uniques": ["Comment [Stacking unit heals 15 HP upon turn end]"]
   },
   {
 	"name": "精神领袖",
