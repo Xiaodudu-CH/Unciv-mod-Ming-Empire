@@ -32,3 +32,17 @@ UnitIcons/Phasers
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/装甲政委
+rotate: false
+  xy: 436, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/精神领袖
+  rotate: false
+  xy: 544, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
